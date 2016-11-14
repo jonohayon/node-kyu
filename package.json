@@ -1,0 +1,29 @@
+{
+  "name": "kyu",
+  "version": "1.0.0",
+  "description": "A simple Promise queue",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rezozo/node-kyu.git"
+  },
+  "keywords": [
+    "kyu",
+    "queue",
+    "node-kyu",
+    "kyukyu"
+  ],
+  "author": "Jonathan Ohayon <me@jonathano.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rezozo/node-kyu/issues"
+  },
+  "homepage": "https://github.com/rezozo/node-kyu#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "uuid": "^2.0.3"
+  }
+}
