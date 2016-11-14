@@ -1,6 +1,6 @@
 kyu
 ===
-A simple Promise-based queue.
+> /kjuː/ A simple Promise-based queue.
 
 ##Why?
 During building [Loadbuster](https://github.com/rezozo/loadbuster), I needed a simple solution for queueing the HTTP requests, so that they'll be serialized and that I'll be able to add / remove them to the queue as needed. A simple npm search for the word queue resulted in a lot of queue modules, but none of them seemed to work good with Promises.
@@ -10,8 +10,6 @@ The `Kyu` class has an internal array of the promises you supply to it (every ti
 
 ##Still, you could use callbacks
 Yeah, but... No...
-
-Also, you should pronounce kyu like the word queue (wasn't taken on npm).
 
 ##Sample Usage
 I'll add a full API documentation when I'll have more time :P
