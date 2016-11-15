@@ -14,7 +14,7 @@ Yeah, but... No...
 ##Sample Usage
 I'll add a full API documentation when I'll have more time :P
 ```javascript
-const Kyu = require('kyu')
+const Kyu = require('node-kyu')
 const queue = new Kyu()
 
 queue.addAction()
